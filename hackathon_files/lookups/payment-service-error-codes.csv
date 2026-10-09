@@ -1,0 +1,18 @@
+code,name,description
+1001,invalid user,the user was not found or has been disabled
+1002,invalid card,the payment card number is invalid
+1003,invalid zip,the payment card zip code is invalid or does not match
+1004,invalid exp,the payment card expiration date is invalid or does not match
+1005,invalid amount,the payment amount is not valid
+1006,invalid tax,the payment tax is not valid
+5000,generic system error,"an unknown generic system error has occurred, the transaction should be attempted at a later time"
+5001,database connection error,the paymentservice was unable to connect to the database
+5002,user look up error,the paymentservice was unable to look up the user information
+5003,card look up error,the paymentservice was unable to look up the payment card information
+1010,invalid transaction id,the transaction id is invalid or missing from historical records
+1011,payment declined,the payment card was declined by the financial authority
+5010,bank system error,the financial authority reported an error on their end
+5011,payment network error,the paymentservice encountered a network error
+5012,payment maintenance error,"the paymentservice is currently undergoing maintenance, the transaction should be attempted at a later time"
+1020,invalid transaction id,the transaction id is invalid or missing from historical records
+1021,payment not found,the payment was not found in historical records

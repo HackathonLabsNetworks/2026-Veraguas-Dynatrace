@@ -1,0 +1,368 @@
+NumericID,CombinedHexID,Description,Protocol,EncryptionAlgorithm,KeySize,Mode,HashFunction,KeyExchange,Authentication
+0,0x0000,TLS_NULL_WITH_NULL_NULL,TLS,null,null,null,null,null,null
+1,0x0001,TLS_RSA_WITH_NULL_MD5,TLS,null,null,null,null,Rivest–Shamir–Adleman,null
+2,0x0002,TLS_RSA_WITH_NULL_SHA,TLS,null,null,null,null,Rivest–Shamir–Adleman,null
+3,0x0003,TLS_RSA_EXPORT_WITH_RC4_40_MD5,TLS,Rivest Cipher 4,40,MD5,null,Rivest–Shamir–Adleman,Export-grade
+4,0x0004,TLS_RSA_WITH_RC4_128_MD5,TLS,Rivest Cipher 4,128,MD5,null,Rivest–Shamir–Adleman,null
+5,0x0005,TLS_RSA_WITH_RC4_128_SHA,TLS,Rivest Cipher 4,128,SHA,null,Rivest–Shamir–Adleman,null
+6,0x0006,TLS_RSA_EXPORT_WITH_RC2_CBC_40_MD5,TLS,Rivest Cipher 2,null,40,MD5,Rivest–Shamir–Adleman,Export-grade
+7,0x0007,TLS_RSA_WITH_IDEA_CBC_SHA,TLS,International Data Encryption Algorithm,null,SHA,null,Rivest–Shamir–Adleman,null
+8,0x0008,TLS_RSA_EXPORT_WITH_DES40_CBC_SHA,TLS,Data Encryption Standard40,null,SHA,null,Rivest–Shamir–Adleman,Export-grade
+9,0x0009,TLS_RSA_WITH_DES_CBC_SHA,TLS,Data Encryption Standard,null,SHA,null,Rivest–Shamir–Adleman,null
+10,0x000A,TLS_RSA_WITH_3DES_EDE_CBC_SHA,TLS,3Data Encryption Standard,null,CBC,SHA,Rivest–Shamir–Adleman,null
+11,0x000B,TLS_DH_DSS_EXPORT_WITH_DES40_CBC_SHA,TLS,Data Encryption Standard40,null,SHA,null,Diffie–Hellman_Digital Signature Standard,Export-grade
+12,0x000C,TLS_DH_DSS_WITH_DES_CBC_SHA,TLS,Data Encryption Standard,null,SHA,null,Diffie–Hellman,Digital Signature Standard
+13,0x000D,TLS_DH_DSS_WITH_3DES_EDE_CBC_SHA,TLS,3Data Encryption Standard,null,CBC,SHA,Diffie–Hellman,Digital Signature Standard
+14,0x000E,TLS_DH_RSA_EXPORT_WITH_DES40_CBC_SHA,TLS,Data Encryption Standard40,null,SHA,null,Diffie–Hellman_Rivest–Shamir–Adleman,Export-grade
+15,0x000F,TLS_DH_RSA_WITH_DES_CBC_SHA,TLS,Data Encryption Standard,null,SHA,null,Diffie–Hellman,Rivest–Shamir–Adleman
+16,0x0010,TLS_DH_RSA_WITH_3DES_EDE_CBC_SHA,TLS,3Data Encryption Standard,null,CBC,SHA,Diffie–Hellman,Rivest–Shamir–Adleman
+17,0x0011,TLS_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA,TLS,Data Encryption Standard40,null,SHA,null,Diffie–HellmanE_Digital Signature Standard,Export-grade
+18,0x0012,TLS_DHE_DSS_WITH_DES_CBC_SHA,TLS,Data Encryption Standard,null,SHA,null,Diffie–HellmanE,Digital Signature Standard
+19,0x0013,TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA,TLS,3Data Encryption Standard,null,CBC,SHA,Diffie–HellmanE,Digital Signature Standard
+20,0x0014,TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA,TLS,Data Encryption Standard40,null,SHA,null,Diffie–HellmanE_Rivest–Shamir–Adleman,Export-grade
+21,0x0015,TLS_DHE_RSA_WITH_DES_CBC_SHA,TLS,Data Encryption Standard,null,SHA,null,Diffie–HellmanE,Rivest–Shamir–Adleman
+22,0x0016,TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA,TLS,3Data Encryption Standard,null,CBC,SHA,Diffie–HellmanE,Rivest–Shamir–Adleman
+23,0x0017,TLS_DH_anon_EXPORT_WITH_RC4_40_MD5,TLS,Rivest Cipher 4,40,MD5,null,Diffie–Hellman_Anonymous,Export-grade
+24,0x0018,TLS_DH_anon_WITH_RC4_128_MD5,TLS,Rivest Cipher 4,128,MD5,null,Diffie–Hellman,Anonymous
+25,0x0019,TLS_DH_anon_EXPORT_WITH_DES40_CBC_SHA,TLS,Data Encryption Standard40,null,SHA,null,Diffie–Hellman_Anonymous,Export-grade
+26,0x001A,TLS_DH_anon_WITH_DES_CBC_SHA,TLS,Data Encryption Standard,null,SHA,null,Diffie–Hellman,Anonymous
+27,0x001B,TLS_DH_anon_WITH_3DES_EDE_CBC_SHA,TLS,3Data Encryption Standard,null,CBC,SHA,Diffie–Hellman,Anonymous
+28,0x001C,Reserved,TLS,null,null,null,null,null,null
+29,0x001D,Reserved,TLS,null,null,null,null,null,null
+30,0x001E,TLS_KRB5_WITH_DES_CBC_SHA,TLS,Data Encryption Standard,null,SHA,null,KRB5,null
+31,0x001F,TLS_KRB5_WITH_3DES_EDE_CBC_SHA,TLS,3Data Encryption Standard,null,CBC,SHA,KRB5,null
+32,0x0020,TLS_KRB5_WITH_RC4_128_SHA,TLS,Rivest Cipher 4,128,SHA,null,KRB5,null
+33,0x0021,TLS_KRB5_WITH_IDEA_CBC_SHA,TLS,International Data Encryption Algorithm,null,SHA,null,KRB5,null
+34,0x0022,TLS_KRB5_WITH_DES_CBC_MD5,TLS,Data Encryption Standard,null,MD5,null,KRB5,null
+35,0x0023,TLS_KRB5_WITH_3DES_EDE_CBC_MD5,TLS,3Data Encryption Standard,null,CBC,MD5,KRB5,null
+36,0x0024,TLS_KRB5_WITH_RC4_128_MD5,TLS,Rivest Cipher 4,128,MD5,null,KRB5,null
+37,0x0025,TLS_KRB5_WITH_IDEA_CBC_MD5,TLS,International Data Encryption Algorithm,null,MD5,null,KRB5,null
+38,0x0026,TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA,TLS,Data Encryption Standard,null,40,SHA,KRB5,Export-grade
+39,0x0027,TLS_KRB5_EXPORT_WITH_RC2_CBC_40_SHA,TLS,Rivest Cipher 2,null,40,SHA,KRB5,Export-grade
+40,0x0028,TLS_KRB5_EXPORT_WITH_RC4_40_SHA,TLS,Rivest Cipher 4,40,SHA,null,KRB5,Export-grade
+41,0x0029,TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5,TLS,Data Encryption Standard,null,40,MD5,KRB5,Export-grade
+42,0x002A,TLS_KRB5_EXPORT_WITH_RC2_CBC_40_MD5,TLS,Rivest Cipher 2,null,40,MD5,KRB5,Export-grade
+43,0x002B,TLS_KRB5_EXPORT_WITH_RC4_40_MD5,TLS,Rivest Cipher 4,40,MD5,null,KRB5,Export-grade
+44,0x002C,TLS_PSK_WITH_NULL_SHA,TLS,null,null,null,null,Pre-Shared Key,null
+45,0x002D,TLS_DHE_PSK_WITH_NULL_SHA,TLS,null,null,null,null,Diffie–HellmanE,Pre-Shared Key
+46,0x002E,TLS_RSA_PSK_WITH_NULL_SHA,TLS,null,null,null,null,Rivest–Shamir–Adleman,Pre-Shared Key
+47,0x002F,TLS_RSA_WITH_AES_128_CBC_SHA,TLS,Advanced Encryption Standard,128,CBC,SHA,Rivest–Shamir–Adleman,null
+48,0x0030,TLS_DH_DSS_WITH_AES_128_CBC_SHA,TLS,Advanced Encryption Standard,128,CBC,SHA,Diffie–Hellman,Digital Signature Standard
+49,0x0031,TLS_DH_RSA_WITH_AES_128_CBC_SHA,TLS,Advanced Encryption Standard,128,CBC,SHA,Diffie–Hellman,Rivest–Shamir–Adleman
+50,0x0032,TLS_DHE_DSS_WITH_AES_128_CBC_SHA,TLS,Advanced Encryption Standard,128,CBC,SHA,Diffie–HellmanE,Digital Signature Standard
+51,0x0033,TLS_DHE_RSA_WITH_AES_128_CBC_SHA,TLS,Advanced Encryption Standard,128,CBC,SHA,Diffie–HellmanE,Rivest–Shamir–Adleman
+52,0x0034,TLS_DH_anon_WITH_AES_128_CBC_SHA,TLS,Advanced Encryption Standard,128,CBC,SHA,Diffie–Hellman,Anonymous
+53,0x0035,TLS_RSA_WITH_AES_256_CBC_SHA,TLS,Advanced Encryption Standard,256,CBC,SHA,Rivest–Shamir–Adleman,null
+54,0x0036,TLS_DH_DSS_WITH_AES_256_CBC_SHA,TLS,Advanced Encryption Standard,256,CBC,SHA,Diffie–Hellman,Digital Signature Standard
+55,0x0037,TLS_DH_RSA_WITH_AES_256_CBC_SHA,TLS,Advanced Encryption Standard,256,CBC,SHA,Diffie–Hellman,Rivest–Shamir–Adleman
+56,0x0038,TLS_DHE_DSS_WITH_AES_256_CBC_SHA,TLS,Advanced Encryption Standard,256,CBC,SHA,Diffie–HellmanE,Digital Signature Standard
+57,0x0039,TLS_DHE_RSA_WITH_AES_256_CBC_SHA,TLS,Advanced Encryption Standard,256,CBC,SHA,Diffie–HellmanE,Rivest–Shamir–Adleman
+58,0x003A,TLS_DH_anon_WITH_AES_256_CBC_SHA,TLS,Advanced Encryption Standard,256,CBC,SHA,Diffie–Hellman,Anonymous
+59,0x003B,TLS_RSA_WITH_NULL_SHA256,TLS,null,null,null,null,Rivest–Shamir–Adleman,null
+60,0x003C,TLS_RSA_WITH_AES_128_CBC_SHA256,TLS,Advanced Encryption Standard,128,CBC,SHA256,Rivest–Shamir–Adleman,null
+61,0x003D,TLS_RSA_WITH_AES_256_CBC_SHA256,TLS,Advanced Encryption Standard,256,CBC,SHA256,Rivest–Shamir–Adleman,null
+62,0x003E,TLS_DH_DSS_WITH_AES_128_CBC_SHA256,TLS,Advanced Encryption Standard,128,CBC,SHA256,Diffie–Hellman,Digital Signature Standard
+63,0x003F,TLS_DH_RSA_WITH_AES_128_CBC_SHA256,TLS,Advanced Encryption Standard,128,CBC,SHA256,Diffie–Hellman,Rivest–Shamir–Adleman
+64,0x0040,TLS_DHE_DSS_WITH_AES_128_CBC_SHA256,TLS,Advanced Encryption Standard,128,CBC,SHA256,Diffie–HellmanE,Digital Signature Standard
+65,0x0041,TLS_RSA_WITH_CAMELLIA_128_CBC_SHA,TLS,Camellia Encryption Algorithm,128,CBC,SHA,Rivest–Shamir–Adleman,null
+66,0x0042,TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA,TLS,Camellia Encryption Algorithm,128,CBC,SHA,Diffie–Hellman,Digital Signature Standard
+67,0x0043,TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA,TLS,Camellia Encryption Algorithm,128,CBC,SHA,Diffie–Hellman,Rivest–Shamir–Adleman
+68,0x0044,TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA,TLS,Camellia Encryption Algorithm,128,CBC,SHA,Diffie–HellmanE,Digital Signature Standard
+69,0x0045,TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA,TLS,Camellia Encryption Algorithm,128,CBC,SHA,Diffie–HellmanE,Rivest–Shamir–Adleman
+70,0x0046,TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA,TLS,Camellia Encryption Algorithm,128,CBC,SHA,Diffie–Hellman,Anonymous
+103,0x0067,TLS_DHE_RSA_WITH_AES_128_CBC_SHA256,TLS,Advanced Encryption Standard,128,CBC,SHA256,Diffie–HellmanE,Rivest–Shamir–Adleman
+104,0x0068,TLS_DH_DSS_WITH_AES_256_CBC_SHA256,TLS,Advanced Encryption Standard,256,CBC,SHA256,Diffie–Hellman,Digital Signature Standard
+105,0x0069,TLS_DH_RSA_WITH_AES_256_CBC_SHA256,TLS,Advanced Encryption Standard,256,CBC,SHA256,Diffie–Hellman,Rivest–Shamir–Adleman
+106,0x006A,TLS_DHE_DSS_WITH_AES_256_CBC_SHA256,TLS,Advanced Encryption Standard,256,CBC,SHA256,Diffie–HellmanE,Digital Signature Standard
+107,0x006B,TLS_DHE_RSA_WITH_AES_256_CBC_SHA256,TLS,Advanced Encryption Standard,256,CBC,SHA256,Diffie–HellmanE,Rivest–Shamir–Adleman
+108,0x006C,TLS_DH_anon_WITH_AES_128_CBC_SHA256,TLS,Advanced Encryption Standard,128,CBC,SHA256,Diffie–Hellman,Anonymous
+109,0x006D,TLS_DH_anon_WITH_AES_256_CBC_SHA256,TLS,Advanced Encryption Standard,256,CBC,SHA256,Diffie–Hellman,Anonymous
+132,0x0084,TLS_RSA_WITH_CAMELLIA_256_CBC_SHA,TLS,Camellia Encryption Algorithm,256,CBC,SHA,Rivest–Shamir–Adleman,null
+133,0x0085,TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA,TLS,Camellia Encryption Algorithm,256,CBC,SHA,Diffie–Hellman,Digital Signature Standard
+134,0x0086,TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA,TLS,Camellia Encryption Algorithm,256,CBC,SHA,Diffie–Hellman,Rivest–Shamir–Adleman
+135,0x0087,TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA,TLS,Camellia Encryption Algorithm,256,CBC,SHA,Diffie–HellmanE,Digital Signature Standard
+136,0x0088,TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA,TLS,Camellia Encryption Algorithm,256,CBC,SHA,Diffie–HellmanE,Rivest–Shamir–Adleman
+137,0x0089,TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA,TLS,Camellia Encryption Algorithm,256,CBC,SHA,Diffie–Hellman,Anonymous
+138,0x008A,TLS_PSK_WITH_RC4_128_SHA,TLS,Rivest Cipher 4,128,SHA,null,Pre-Shared Key,null
+139,0x008B,TLS_PSK_WITH_3DES_EDE_CBC_SHA,TLS,3Data Encryption Standard,null,CBC,SHA,Pre-Shared Key,null
+140,0x008C,TLS_PSK_WITH_AES_128_CBC_SHA,TLS,Advanced Encryption Standard,128,CBC,SHA,Pre-Shared Key,null
+141,0x008D,TLS_PSK_WITH_AES_256_CBC_SHA,TLS,Advanced Encryption Standard,256,CBC,SHA,Pre-Shared Key,null
+142,0x008E,TLS_DHE_PSK_WITH_RC4_128_SHA,TLS,Rivest Cipher 4,128,SHA,null,Diffie–HellmanE,Pre-Shared Key
+143,0x008F,TLS_DHE_PSK_WITH_3DES_EDE_CBC_SHA,TLS,3Data Encryption Standard,null,CBC,SHA,Diffie–HellmanE,Pre-Shared Key
+144,0x0090,TLS_DHE_PSK_WITH_AES_128_CBC_SHA,TLS,Advanced Encryption Standard,128,CBC,SHA,Diffie–HellmanE,Pre-Shared Key
+145,0x0091,TLS_DHE_PSK_WITH_AES_256_CBC_SHA,TLS,Advanced Encryption Standard,256,CBC,SHA,Diffie–HellmanE,Pre-Shared Key
+146,0x0092,TLS_RSA_PSK_WITH_RC4_128_SHA,TLS,Rivest Cipher 4,128,SHA,null,Rivest–Shamir–Adleman,Pre-Shared Key
+147,0x0093,TLS_RSA_PSK_WITH_3DES_EDE_CBC_SHA,TLS,3Data Encryption Standard,null,CBC,SHA,Rivest–Shamir–Adleman,Pre-Shared Key
+148,0x0094,TLS_RSA_PSK_WITH_AES_128_CBC_SHA,TLS,Advanced Encryption Standard,128,CBC,SHA,Rivest–Shamir–Adleman,Pre-Shared Key
+149,0x0095,TLS_RSA_PSK_WITH_AES_256_CBC_SHA,TLS,Advanced Encryption Standard,256,CBC,SHA,Rivest–Shamir–Adleman,Pre-Shared Key
+150,0x0096,TLS_RSA_WITH_SEED_CBC_SHA,TLS,SEED,null,SHA,null,Rivest–Shamir–Adleman,null
+151,0x0097,TLS_DH_DSS_WITH_SEED_CBC_SHA,TLS,SEED,null,SHA,null,Diffie–Hellman,Digital Signature Standard
+152,0x0098,TLS_DH_RSA_WITH_SEED_CBC_SHA,TLS,SEED,null,SHA,null,Diffie–Hellman,Rivest–Shamir–Adleman
+153,0x0099,TLS_DHE_DSS_WITH_SEED_CBC_SHA,TLS,SEED,null,SHA,null,Diffie–HellmanE,Digital Signature Standard
+154,0x009A,TLS_DHE_RSA_WITH_SEED_CBC_SHA,TLS,SEED,null,SHA,null,Diffie–HellmanE,Rivest–Shamir–Adleman
+155,0x009B,TLS_DH_anon_WITH_SEED_CBC_SHA,TLS,SEED,null,SHA,null,Diffie–Hellman,Anonymous
+156,0x009C,TLS_RSA_WITH_AES_128_GCM_SHA256,TLS,Advanced Encryption Standard,128,GCM,SHA256,Rivest–Shamir–Adleman,null
+157,0x009D,TLS_RSA_WITH_AES_256_GCM_SHA384,TLS,Advanced Encryption Standard,256,GCM,SHA384,Rivest–Shamir–Adleman,null
+158,0x009E,TLS_DHE_RSA_WITH_AES_128_GCM_SHA256,TLS,Advanced Encryption Standard,128,GCM,SHA256,Diffie–HellmanE,Rivest–Shamir–Adleman
+159,0x009F,TLS_DHE_RSA_WITH_AES_256_GCM_SHA384,TLS,Advanced Encryption Standard,256,GCM,SHA384,Diffie–HellmanE,Rivest–Shamir–Adleman
+160,0x00A0,TLS_DH_RSA_WITH_AES_128_GCM_SHA256,TLS,Advanced Encryption Standard,128,GCM,SHA256,Diffie–Hellman,Rivest–Shamir–Adleman
+161,0x00A1,TLS_DH_RSA_WITH_AES_256_GCM_SHA384,TLS,Advanced Encryption Standard,256,GCM,SHA384,Diffie–Hellman,Rivest–Shamir–Adleman
+162,0x00A2,TLS_DHE_DSS_WITH_AES_128_GCM_SHA256,TLS,Advanced Encryption Standard,128,GCM,SHA256,Diffie–HellmanE,Digital Signature Standard
+163,0x00A3,TLS_DHE_DSS_WITH_AES_256_GCM_SHA384,TLS,Advanced Encryption Standard,256,GCM,SHA384,Diffie–HellmanE,Digital Signature Standard
+164,0x00A4,TLS_DH_DSS_WITH_AES_128_GCM_SHA256,TLS,Advanced Encryption Standard,128,GCM,SHA256,Diffie–Hellman,Digital Signature Standard
+165,0x00A5,TLS_DH_DSS_WITH_AES_256_GCM_SHA384,TLS,Advanced Encryption Standard,256,GCM,SHA384,Diffie–Hellman,Digital Signature Standard
+166,0x00A6,TLS_DH_anon_WITH_AES_128_GCM_SHA256,TLS,Advanced Encryption Standard,128,GCM,SHA256,Diffie–Hellman,Anonymous
+167,0x00A7,TLS_DH_anon_WITH_AES_256_GCM_SHA384,TLS,Advanced Encryption Standard,256,GCM,SHA384,Diffie–Hellman,Anonymous
+168,0x00A8,TLS_PSK_WITH_AES_128_GCM_SHA256,TLS,Advanced Encryption Standard,128,GCM,SHA256,Pre-Shared Key,null
+169,0x00A9,TLS_PSK_WITH_AES_256_GCM_SHA384,TLS,Advanced Encryption Standard,256,GCM,SHA384,Pre-Shared Key,null
+170,0x00AA,TLS_DHE_PSK_WITH_AES_128_GCM_SHA256,TLS,Advanced Encryption Standard,128,GCM,SHA256,Diffie–HellmanE,Pre-Shared Key
+171,0x00AB,TLS_DHE_PSK_WITH_AES_256_GCM_SHA384,TLS,Advanced Encryption Standard,256,GCM,SHA384,Diffie–HellmanE,Pre-Shared Key
+172,0x00AC,TLS_RSA_PSK_WITH_AES_128_GCM_SHA256,TLS,Advanced Encryption Standard,128,GCM,SHA256,Rivest–Shamir–Adleman,Pre-Shared Key
+173,0x00AD,TLS_RSA_PSK_WITH_AES_256_GCM_SHA384,TLS,Advanced Encryption Standard,256,GCM,SHA384,Rivest–Shamir–Adleman,Pre-Shared Key
+174,0x00AE,TLS_PSK_WITH_AES_128_CBC_SHA256,TLS,Advanced Encryption Standard,128,CBC,SHA256,Pre-Shared Key,null
+175,0x00AF,TLS_PSK_WITH_AES_256_CBC_SHA384,TLS,Advanced Encryption Standard,256,CBC,SHA384,Pre-Shared Key,null
+176,0x00B0,TLS_PSK_WITH_NULL_SHA256,TLS,null,null,null,null,Pre-Shared Key,null
+177,0x00B1,TLS_PSK_WITH_NULL_SHA384,TLS,null,null,null,null,Pre-Shared Key,null
+178,0x00B2,TLS_DHE_PSK_WITH_AES_128_CBC_SHA256,TLS,Advanced Encryption Standard,128,CBC,SHA256,Diffie–HellmanE,Pre-Shared Key
+179,0x00B3,TLS_DHE_PSK_WITH_AES_256_CBC_SHA384,TLS,Advanced Encryption Standard,256,CBC,SHA384,Diffie–HellmanE,Pre-Shared Key
+180,0x00B4,TLS_DHE_PSK_WITH_NULL_SHA256,TLS,null,null,null,null,Diffie–HellmanE,Pre-Shared Key
+181,0x00B5,TLS_DHE_PSK_WITH_NULL_SHA384,TLS,null,null,null,null,Diffie–HellmanE,Pre-Shared Key
+182,0x00B6,TLS_RSA_PSK_WITH_AES_128_CBC_SHA256,TLS,Advanced Encryption Standard,128,CBC,SHA256,Rivest–Shamir–Adleman,Pre-Shared Key
+183,0x00B7,TLS_RSA_PSK_WITH_AES_256_CBC_SHA384,TLS,Advanced Encryption Standard,256,CBC,SHA384,Rivest–Shamir–Adleman,Pre-Shared Key
+184,0x00B8,TLS_RSA_PSK_WITH_NULL_SHA256,TLS,null,null,null,null,Rivest–Shamir–Adleman,Pre-Shared Key
+185,0x00B9,TLS_RSA_PSK_WITH_NULL_SHA384,TLS,null,null,null,null,Rivest–Shamir–Adleman,Pre-Shared Key
+186,0x00BA,TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256,TLS,Camellia Encryption Algorithm,128,CBC,SHA256,Rivest–Shamir–Adleman,null
+187,0x00BB,TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA256,TLS,Camellia Encryption Algorithm,128,CBC,SHA256,Diffie–Hellman,Digital Signature Standard
+188,0x00BC,TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA256,TLS,Camellia Encryption Algorithm,128,CBC,SHA256,Diffie–Hellman,Rivest–Shamir–Adleman
+189,0x00BD,TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA256,TLS,Camellia Encryption Algorithm,128,CBC,SHA256,Diffie–HellmanE,Digital Signature Standard
+190,0x00BE,TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256,TLS,Camellia Encryption Algorithm,128,CBC,SHA256,Diffie–HellmanE,Rivest–Shamir–Adleman
+191,0x00BF,TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA256,TLS,Camellia Encryption Algorithm,128,CBC,SHA256,Diffie–Hellman,Anonymous
+192,0x00C0,TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256,TLS,Camellia Encryption Algorithm,256,CBC,SHA256,Rivest–Shamir–Adleman,null
+193,0x00C1,TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA256,TLS,Camellia Encryption Algorithm,256,CBC,SHA256,Diffie–Hellman,Digital Signature Standard
+194,0x00C2,TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA256,TLS,Camellia Encryption Algorithm,256,CBC,SHA256,Diffie–Hellman,Rivest–Shamir–Adleman
+195,0x00C3,TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA256,TLS,Camellia Encryption Algorithm,256,CBC,SHA256,Diffie–HellmanE,Digital Signature Standard
+196,0x00C4,TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256,TLS,Camellia Encryption Algorithm,256,CBC,SHA256,Diffie–HellmanE,Rivest–Shamir–Adleman
+197,0x00C5,TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA256,TLS,Camellia Encryption Algorithm,256,CBC,SHA256,Diffie–Hellman,Anonymous
+198,0x00C6,TLS_SM4_GCM_SM3,TLS,null,null,null,null,null,null
+199,0x00C7,TLS_SM4_CCM_SM3,TLS,null,null,null,null,null,null
+255,0x00FF,TLS_EMPTY_RENEGOTIATION_INFO_SCSV,TLS,null,null,null,null,null,null
+2570,0x0A0A,Reserved,TLS,null,null,null,null,null,null
+4865,0x1301,TLS_AES_128_GCM_SHA256,TLS,null,null,null,null,null,null
+4866,0x1302,TLS_AES_256_GCM_SHA384,TLS,null,null,null,null,null,null
+4867,0x1303,TLS_CHACHA20_POLY1305_SHA256,TLS,null,null,null,null,null,null
+4868,0x1304,TLS_AES_128_CCM_SHA256,TLS,null,null,null,null,null,null
+4869,0x1305,TLS_AES_128_CCM_8_SHA256,TLS,null,null,null,null,null,null
+4870,0x1306,TLS_AEGIS_256_SHA512,TLS,null,null,null,null,null,null
+4871,0x1307,TLS_AEGIS_128L_SHA256,TLS,null,null,null,null,null,null
+6682,0x1A1A,Reserved,TLS,null,null,null,null,null,null
+10794,0x2A2A,Reserved,TLS,null,null,null,null,null,null
+14906,0x3A3A,Reserved,TLS,null,null,null,null,null,null
+19018,0x4A4A,Reserved,TLS,null,null,null,null,null,null
+22016,0x5600,TLS_FALLBACK_SCSV,TLS,null,null,null,null,null,null
+23130,0x5A5A,Reserved,TLS,null,null,null,null,null,null
+27242,0x6A6A,Reserved,TLS,null,null,null,null,null,null
+31354,0x7A7A,Reserved,TLS,null,null,null,null,null,null
+35466,0x8A8A,Reserved,TLS,null,null,null,null,null,null
+39578,0x9A9A,Reserved,TLS,null,null,null,null,null,null
+43690,0xAAAA,Reserved,TLS,null,null,null,null,null,null
+47802,0xBABA,Reserved,TLS,null,null,null,null,null,null
+49153,0xC001,TLS_ECDH_ECDSA_WITH_NULL_SHA,TLS,null,null,null,null,Elliptic Curve Diffie–Hellman,Elliptic Curve Digital Signature Algorithm
+49154,0xC002,TLS_ECDH_ECDSA_WITH_RC4_128_SHA,TLS,Rivest Cipher 4,128,SHA,null,Elliptic Curve Diffie–Hellman,Elliptic Curve Digital Signature Algorithm
+49155,0xC003,TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA,TLS,3Data Encryption Standard,null,CBC,SHA,Elliptic Curve Diffie–Hellman,Elliptic Curve Digital Signature Algorithm
+49156,0xC004,TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA,TLS,Advanced Encryption Standard,128,CBC,SHA,Elliptic Curve Diffie–Hellman,Elliptic Curve Digital Signature Algorithm
+49157,0xC005,TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA,TLS,Advanced Encryption Standard,256,CBC,SHA,Elliptic Curve Diffie–Hellman,Elliptic Curve Digital Signature Algorithm
+49158,0xC006,TLS_ECDHE_ECDSA_WITH_NULL_SHA,TLS,null,null,null,null,Elliptic Curve Diffie–HellmanE,Elliptic Curve Digital Signature Algorithm
+49159,0xC007,TLS_ECDHE_ECDSA_WITH_RC4_128_SHA,TLS,Rivest Cipher 4,128,SHA,null,Elliptic Curve Diffie–HellmanE,Elliptic Curve Digital Signature Algorithm
+49160,0xC008,TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA,TLS,3Data Encryption Standard,null,CBC,SHA,Elliptic Curve Diffie–HellmanE,Elliptic Curve Digital Signature Algorithm
+49161,0xC009,TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA,TLS,Advanced Encryption Standard,128,CBC,SHA,Elliptic Curve Diffie–HellmanE,Elliptic Curve Digital Signature Algorithm
+49162,0xC00A,TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA,TLS,Advanced Encryption Standard,256,CBC,SHA,Elliptic Curve Diffie–HellmanE,Elliptic Curve Digital Signature Algorithm
+49163,0xC00B,TLS_ECDH_RSA_WITH_NULL_SHA,TLS,null,null,null,null,Elliptic Curve Diffie–Hellman,Rivest–Shamir–Adleman
+49164,0xC00C,TLS_ECDH_RSA_WITH_RC4_128_SHA,TLS,Rivest Cipher 4,128,SHA,null,Elliptic Curve Diffie–Hellman,Rivest–Shamir–Adleman
+49165,0xC00D,TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA,TLS,3Data Encryption Standard,null,CBC,SHA,Elliptic Curve Diffie–Hellman,Rivest–Shamir–Adleman
+49166,0xC00E,TLS_ECDH_RSA_WITH_AES_128_CBC_SHA,TLS,Advanced Encryption Standard,128,CBC,SHA,Elliptic Curve Diffie–Hellman,Rivest–Shamir–Adleman
+49167,0xC00F,TLS_ECDH_RSA_WITH_AES_256_CBC_SHA,TLS,Advanced Encryption Standard,256,CBC,SHA,Elliptic Curve Diffie–Hellman,Rivest–Shamir–Adleman
+49168,0xC010,TLS_ECDHE_RSA_WITH_NULL_SHA,TLS,null,null,null,null,Elliptic Curve Diffie–HellmanE,Rivest–Shamir–Adleman
+49169,0xC011,TLS_ECDHE_RSA_WITH_RC4_128_SHA,TLS,Rivest Cipher 4,128,SHA,null,Elliptic Curve Diffie–HellmanE,Rivest–Shamir–Adleman
+49170,0xC012,TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA,TLS,3Data Encryption Standard,null,CBC,SHA,Elliptic Curve Diffie–HellmanE,Rivest–Shamir–Adleman
+49171,0xC013,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS,Advanced Encryption Standard,128,CBC,SHA,Elliptic Curve Diffie–HellmanE,Rivest–Shamir–Adleman
+49172,0xC014,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS,Advanced Encryption Standard,256,CBC,SHA,Elliptic Curve Diffie–HellmanE,Rivest–Shamir–Adleman
+49173,0xC015,TLS_ECDH_anon_WITH_NULL_SHA,TLS,null,null,null,null,Elliptic Curve Diffie–Hellman,Anonymous
+49174,0xC016,TLS_ECDH_anon_WITH_RC4_128_SHA,TLS,Rivest Cipher 4,128,SHA,null,Elliptic Curve Diffie–Hellman,Anonymous
+49175,0xC017,TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA,TLS,3Data Encryption Standard,null,CBC,SHA,Elliptic Curve Diffie–Hellman,Anonymous
+49176,0xC018,TLS_ECDH_anon_WITH_AES_128_CBC_SHA,TLS,Advanced Encryption Standard,128,CBC,SHA,Elliptic Curve Diffie–Hellman,Anonymous
+49177,0xC019,TLS_ECDH_anon_WITH_AES_256_CBC_SHA,TLS,Advanced Encryption Standard,256,CBC,SHA,Elliptic Curve Diffie–Hellman,Anonymous
+49178,0xC01A,TLS_SRP_SHA_WITH_3DES_EDE_CBC_SHA,TLS,3Data Encryption Standard,null,CBC,SHA,SRP,Secure Hash Algorithm
+49179,0xC01B,TLS_SRP_SHA_RSA_WITH_3DES_EDE_CBC_SHA,TLS,3Data Encryption Standard,null,CBC,SHA,SRP_Secure Hash Algorithm,Rivest–Shamir–Adleman
+49180,0xC01C,TLS_SRP_SHA_DSS_WITH_3DES_EDE_CBC_SHA,TLS,3Data Encryption Standard,null,CBC,SHA,SRP_Secure Hash Algorithm,Digital Signature Standard
+49181,0xC01D,TLS_SRP_SHA_WITH_AES_128_CBC_SHA,TLS,Advanced Encryption Standard,128,CBC,SHA,SRP,Secure Hash Algorithm
+49182,0xC01E,TLS_SRP_SHA_RSA_WITH_AES_128_CBC_SHA,TLS,Advanced Encryption Standard,128,CBC,SHA,SRP_Secure Hash Algorithm,Rivest–Shamir–Adleman
+49183,0xC01F,TLS_SRP_SHA_DSS_WITH_AES_128_CBC_SHA,TLS,Advanced Encryption Standard,128,CBC,SHA,SRP_Secure Hash Algorithm,Digital Signature Standard
+49184,0xC020,TLS_SRP_SHA_WITH_AES_256_CBC_SHA,TLS,Advanced Encryption Standard,256,CBC,SHA,SRP,Secure Hash Algorithm
+49185,0xC021,TLS_SRP_SHA_RSA_WITH_AES_256_CBC_SHA,TLS,Advanced Encryption Standard,256,CBC,SHA,SRP_Secure Hash Algorithm,Rivest–Shamir–Adleman
+49186,0xC022,TLS_SRP_SHA_DSS_WITH_AES_256_CBC_SHA,TLS,Advanced Encryption Standard,256,CBC,SHA,SRP_Secure Hash Algorithm,Digital Signature Standard
+49187,0xC023,TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256,TLS,Advanced Encryption Standard,128,CBC,SHA256,Elliptic Curve Diffie–HellmanE,Elliptic Curve Digital Signature Algorithm
+49188,0xC024,TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384,TLS,Advanced Encryption Standard,256,CBC,SHA384,Elliptic Curve Diffie–HellmanE,Elliptic Curve Digital Signature Algorithm
+49189,0xC025,TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256,TLS,Advanced Encryption Standard,128,CBC,SHA256,Elliptic Curve Diffie–Hellman,Elliptic Curve Digital Signature Algorithm
+49190,0xC026,TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384,TLS,Advanced Encryption Standard,256,CBC,SHA384,Elliptic Curve Diffie–Hellman,Elliptic Curve Digital Signature Algorithm
+49191,0xC027,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS,Advanced Encryption Standard,128,CBC,SHA256,Elliptic Curve Diffie–HellmanE,Rivest–Shamir–Adleman
+49192,0xC028,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS,Advanced Encryption Standard,256,CBC,SHA384,Elliptic Curve Diffie–HellmanE,Rivest–Shamir–Adleman
+49193,0xC029,TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256,TLS,Advanced Encryption Standard,128,CBC,SHA256,Elliptic Curve Diffie–Hellman,Rivest–Shamir–Adleman
+49194,0xC02A,TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384,TLS,Advanced Encryption Standard,256,CBC,SHA384,Elliptic Curve Diffie–Hellman,Rivest–Shamir–Adleman
+49195,0xC02B,TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256,TLS,Advanced Encryption Standard,128,GCM,SHA256,Elliptic Curve Diffie–HellmanE,Elliptic Curve Digital Signature Algorithm
+49196,0xC02C,TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384,TLS,Advanced Encryption Standard,256,GCM,SHA384,Elliptic Curve Diffie–HellmanE,Elliptic Curve Digital Signature Algorithm
+49197,0xC02D,TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256,TLS,Advanced Encryption Standard,128,GCM,SHA256,Elliptic Curve Diffie–Hellman,Elliptic Curve Digital Signature Algorithm
+49198,0xC02E,TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384,TLS,Advanced Encryption Standard,256,GCM,SHA384,Elliptic Curve Diffie–Hellman,Elliptic Curve Digital Signature Algorithm
+49199,0xC02F,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS,Advanced Encryption Standard,128,GCM,SHA256,Elliptic Curve Diffie–HellmanE,Rivest–Shamir–Adleman
+49200,0xC030,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,TLS,Advanced Encryption Standard,256,GCM,SHA384,Elliptic Curve Diffie–HellmanE,Rivest–Shamir–Adleman
+49201,0xC031,TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256,TLS,Advanced Encryption Standard,128,GCM,SHA256,Elliptic Curve Diffie–Hellman,Rivest–Shamir–Adleman
+49202,0xC032,TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384,TLS,Advanced Encryption Standard,256,GCM,SHA384,Elliptic Curve Diffie–Hellman,Rivest–Shamir–Adleman
+49203,0xC033,TLS_ECDHE_PSK_WITH_RC4_128_SHA,TLS,Rivest Cipher 4,128,SHA,null,Elliptic Curve Diffie–HellmanE,Pre-Shared Key
+49204,0xC034,TLS_ECDHE_PSK_WITH_3DES_EDE_CBC_SHA,TLS,3Data Encryption Standard,null,CBC,SHA,Elliptic Curve Diffie–HellmanE,Pre-Shared Key
+49205,0xC035,TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA,TLS,Advanced Encryption Standard,128,CBC,SHA,Elliptic Curve Diffie–HellmanE,Pre-Shared Key
+49206,0xC036,TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA,TLS,Advanced Encryption Standard,256,CBC,SHA,Elliptic Curve Diffie–HellmanE,Pre-Shared Key
+49207,0xC037,TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA256,TLS,Advanced Encryption Standard,128,CBC,SHA256,Elliptic Curve Diffie–HellmanE,Pre-Shared Key
+49208,0xC038,TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA384,TLS,Advanced Encryption Standard,256,CBC,SHA384,Elliptic Curve Diffie–HellmanE,Pre-Shared Key
+49209,0xC039,TLS_ECDHE_PSK_WITH_NULL_SHA,TLS,null,null,null,null,Elliptic Curve Diffie–HellmanE,Pre-Shared Key
+49210,0xC03A,TLS_ECDHE_PSK_WITH_NULL_SHA256,TLS,null,null,null,null,Elliptic Curve Diffie–HellmanE,Pre-Shared Key
+49211,0xC03B,TLS_ECDHE_PSK_WITH_NULL_SHA384,TLS,null,null,null,null,Elliptic Curve Diffie–HellmanE,Pre-Shared Key
+49212,0xC03C,TLS_RSA_WITH_ARIA_128_CBC_SHA256,TLS,ARIA,128,CBC,SHA256,Rivest–Shamir–Adleman,null
+49213,0xC03D,TLS_RSA_WITH_ARIA_256_CBC_SHA384,TLS,ARIA,256,CBC,SHA384,Rivest–Shamir–Adleman,null
+49214,0xC03E,TLS_DH_DSS_WITH_ARIA_128_CBC_SHA256,TLS,ARIA,128,CBC,SHA256,Diffie–Hellman,Digital Signature Standard
+49215,0xC03F,TLS_DH_DSS_WITH_ARIA_256_CBC_SHA384,TLS,ARIA,256,CBC,SHA384,Diffie–Hellman,Digital Signature Standard
+49216,0xC040,TLS_DH_RSA_WITH_ARIA_128_CBC_SHA256,TLS,ARIA,128,CBC,SHA256,Diffie–Hellman,Rivest–Shamir–Adleman
+49217,0xC041,TLS_DH_RSA_WITH_ARIA_256_CBC_SHA384,TLS,ARIA,256,CBC,SHA384,Diffie–Hellman,Rivest–Shamir–Adleman
+49218,0xC042,TLS_DHE_DSS_WITH_ARIA_128_CBC_SHA256,TLS,ARIA,128,CBC,SHA256,Diffie–HellmanE,Digital Signature Standard
+49219,0xC043,TLS_DHE_DSS_WITH_ARIA_256_CBC_SHA384,TLS,ARIA,256,CBC,SHA384,Diffie–HellmanE,Digital Signature Standard
+49220,0xC044,TLS_DHE_RSA_WITH_ARIA_128_CBC_SHA256,TLS,ARIA,128,CBC,SHA256,Diffie–HellmanE,Rivest–Shamir–Adleman
+49221,0xC045,TLS_DHE_RSA_WITH_ARIA_256_CBC_SHA384,TLS,ARIA,256,CBC,SHA384,Diffie–HellmanE,Rivest–Shamir–Adleman
+49222,0xC046,TLS_DH_anon_WITH_ARIA_128_CBC_SHA256,TLS,ARIA,128,CBC,SHA256,Diffie–Hellman,Anonymous
+49223,0xC047,TLS_DH_anon_WITH_ARIA_256_CBC_SHA384,TLS,ARIA,256,CBC,SHA384,Diffie–Hellman,Anonymous
+49224,0xC048,TLS_ECDHE_ECDSA_WITH_ARIA_128_CBC_SHA256,TLS,ARIA,128,CBC,SHA256,Elliptic Curve Diffie–HellmanE,Elliptic Curve Digital Signature Algorithm
+49225,0xC049,TLS_ECDHE_ECDSA_WITH_ARIA_256_CBC_SHA384,TLS,ARIA,256,CBC,SHA384,Elliptic Curve Diffie–HellmanE,Elliptic Curve Digital Signature Algorithm
+49226,0xC04A,TLS_ECDH_ECDSA_WITH_ARIA_128_CBC_SHA256,TLS,ARIA,128,CBC,SHA256,Elliptic Curve Diffie–Hellman,Elliptic Curve Digital Signature Algorithm
+49227,0xC04B,TLS_ECDH_ECDSA_WITH_ARIA_256_CBC_SHA384,TLS,ARIA,256,CBC,SHA384,Elliptic Curve Diffie–Hellman,Elliptic Curve Digital Signature Algorithm
+49228,0xC04C,TLS_ECDHE_RSA_WITH_ARIA_128_CBC_SHA256,TLS,ARIA,128,CBC,SHA256,Elliptic Curve Diffie–HellmanE,Rivest–Shamir–Adleman
+49229,0xC04D,TLS_ECDHE_RSA_WITH_ARIA_256_CBC_SHA384,TLS,ARIA,256,CBC,SHA384,Elliptic Curve Diffie–HellmanE,Rivest–Shamir–Adleman
+49230,0xC04E,TLS_ECDH_RSA_WITH_ARIA_128_CBC_SHA256,TLS,ARIA,128,CBC,SHA256,Elliptic Curve Diffie–Hellman,Rivest–Shamir–Adleman
+49231,0xC04F,TLS_ECDH_RSA_WITH_ARIA_256_CBC_SHA384,TLS,ARIA,256,CBC,SHA384,Elliptic Curve Diffie–Hellman,Rivest–Shamir–Adleman
+49232,0xC050,TLS_RSA_WITH_ARIA_128_GCM_SHA256,TLS,ARIA,128,GCM,SHA256,Rivest–Shamir–Adleman,null
+49233,0xC051,TLS_RSA_WITH_ARIA_256_GCM_SHA384,TLS,ARIA,256,GCM,SHA384,Rivest–Shamir–Adleman,null
+49234,0xC052,TLS_DHE_RSA_WITH_ARIA_128_GCM_SHA256,TLS,ARIA,128,GCM,SHA256,Diffie–HellmanE,Rivest–Shamir–Adleman
+49235,0xC053,TLS_DHE_RSA_WITH_ARIA_256_GCM_SHA384,TLS,ARIA,256,GCM,SHA384,Diffie–HellmanE,Rivest–Shamir–Adleman
+49236,0xC054,TLS_DH_RSA_WITH_ARIA_128_GCM_SHA256,TLS,ARIA,128,GCM,SHA256,Diffie–Hellman,Rivest–Shamir–Adleman
+49237,0xC055,TLS_DH_RSA_WITH_ARIA_256_GCM_SHA384,TLS,ARIA,256,GCM,SHA384,Diffie–Hellman,Rivest–Shamir–Adleman
+49238,0xC056,TLS_DHE_DSS_WITH_ARIA_128_GCM_SHA256,TLS,ARIA,128,GCM,SHA256,Diffie–HellmanE,Digital Signature Standard
+49239,0xC057,TLS_DHE_DSS_WITH_ARIA_256_GCM_SHA384,TLS,ARIA,256,GCM,SHA384,Diffie–HellmanE,Digital Signature Standard
+49240,0xC058,TLS_DH_DSS_WITH_ARIA_128_GCM_SHA256,TLS,ARIA,128,GCM,SHA256,Diffie–Hellman,Digital Signature Standard
+49241,0xC059,TLS_DH_DSS_WITH_ARIA_256_GCM_SHA384,TLS,ARIA,256,GCM,SHA384,Diffie–Hellman,Digital Signature Standard
+49242,0xC05A,TLS_DH_anon_WITH_ARIA_128_GCM_SHA256,TLS,ARIA,128,GCM,SHA256,Diffie–Hellman,Anonymous
+49243,0xC05B,TLS_DH_anon_WITH_ARIA_256_GCM_SHA384,TLS,ARIA,256,GCM,SHA384,Diffie–Hellman,Anonymous
+49244,0xC05C,TLS_ECDHE_ECDSA_WITH_ARIA_128_GCM_SHA256,TLS,ARIA,128,GCM,SHA256,Elliptic Curve Diffie–HellmanE,Elliptic Curve Digital Signature Algorithm
+49245,0xC05D,TLS_ECDHE_ECDSA_WITH_ARIA_256_GCM_SHA384,TLS,ARIA,256,GCM,SHA384,Elliptic Curve Diffie–HellmanE,Elliptic Curve Digital Signature Algorithm
+49246,0xC05E,TLS_ECDH_ECDSA_WITH_ARIA_128_GCM_SHA256,TLS,ARIA,128,GCM,SHA256,Elliptic Curve Diffie–Hellman,Elliptic Curve Digital Signature Algorithm
+49247,0xC05F,TLS_ECDH_ECDSA_WITH_ARIA_256_GCM_SHA384,TLS,ARIA,256,GCM,SHA384,Elliptic Curve Diffie–Hellman,Elliptic Curve Digital Signature Algorithm
+49248,0xC060,TLS_ECDHE_RSA_WITH_ARIA_128_GCM_SHA256,TLS,ARIA,128,GCM,SHA256,Elliptic Curve Diffie–HellmanE,Rivest–Shamir–Adleman
+49249,0xC061,TLS_ECDHE_RSA_WITH_ARIA_256_GCM_SHA384,TLS,ARIA,256,GCM,SHA384,Elliptic Curve Diffie–HellmanE,Rivest–Shamir–Adleman
+49250,0xC062,TLS_ECDH_RSA_WITH_ARIA_128_GCM_SHA256,TLS,ARIA,128,GCM,SHA256,Elliptic Curve Diffie–Hellman,Rivest–Shamir–Adleman
+49251,0xC063,TLS_ECDH_RSA_WITH_ARIA_256_GCM_SHA384,TLS,ARIA,256,GCM,SHA384,Elliptic Curve Diffie–Hellman,Rivest–Shamir–Adleman
+49252,0xC064,TLS_PSK_WITH_ARIA_128_CBC_SHA256,TLS,ARIA,128,CBC,SHA256,Pre-Shared Key,null
+49253,0xC065,TLS_PSK_WITH_ARIA_256_CBC_SHA384,TLS,ARIA,256,CBC,SHA384,Pre-Shared Key,null
+49254,0xC066,TLS_DHE_PSK_WITH_ARIA_128_CBC_SHA256,TLS,ARIA,128,CBC,SHA256,Diffie–HellmanE,Pre-Shared Key
+49255,0xC067,TLS_DHE_PSK_WITH_ARIA_256_CBC_SHA384,TLS,ARIA,256,CBC,SHA384,Diffie–HellmanE,Pre-Shared Key
+49256,0xC068,TLS_RSA_PSK_WITH_ARIA_128_CBC_SHA256,TLS,ARIA,128,CBC,SHA256,Rivest–Shamir–Adleman,Pre-Shared Key
+49257,0xC069,TLS_RSA_PSK_WITH_ARIA_256_CBC_SHA384,TLS,ARIA,256,CBC,SHA384,Rivest–Shamir–Adleman,Pre-Shared Key
+49258,0xC06A,TLS_PSK_WITH_ARIA_128_GCM_SHA256,TLS,ARIA,128,GCM,SHA256,Pre-Shared Key,null
+49259,0xC06B,TLS_PSK_WITH_ARIA_256_GCM_SHA384,TLS,ARIA,256,GCM,SHA384,Pre-Shared Key,null
+49260,0xC06C,TLS_DHE_PSK_WITH_ARIA_128_GCM_SHA256,TLS,ARIA,128,GCM,SHA256,Diffie–HellmanE,Pre-Shared Key
+49261,0xC06D,TLS_DHE_PSK_WITH_ARIA_256_GCM_SHA384,TLS,ARIA,256,GCM,SHA384,Diffie–HellmanE,Pre-Shared Key
+49262,0xC06E,TLS_RSA_PSK_WITH_ARIA_128_GCM_SHA256,TLS,ARIA,128,GCM,SHA256,Rivest–Shamir–Adleman,Pre-Shared Key
+49263,0xC06F,TLS_RSA_PSK_WITH_ARIA_256_GCM_SHA384,TLS,ARIA,256,GCM,SHA384,Rivest–Shamir–Adleman,Pre-Shared Key
+49264,0xC070,TLS_ECDHE_PSK_WITH_ARIA_128_CBC_SHA256,TLS,ARIA,128,CBC,SHA256,Elliptic Curve Diffie–HellmanE,Pre-Shared Key
+49265,0xC071,TLS_ECDHE_PSK_WITH_ARIA_256_CBC_SHA384,TLS,ARIA,256,CBC,SHA384,Elliptic Curve Diffie–HellmanE,Pre-Shared Key
+49266,0xC072,TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_CBC_SHA256,TLS,Camellia Encryption Algorithm,128,CBC,SHA256,Elliptic Curve Diffie–HellmanE,Elliptic Curve Digital Signature Algorithm
+49267,0xC073,TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_CBC_SHA384,TLS,Camellia Encryption Algorithm,256,CBC,SHA384,Elliptic Curve Diffie–HellmanE,Elliptic Curve Digital Signature Algorithm
+49268,0xC074,TLS_ECDH_ECDSA_WITH_CAMELLIA_128_CBC_SHA256,TLS,Camellia Encryption Algorithm,128,CBC,SHA256,Elliptic Curve Diffie–Hellman,Elliptic Curve Digital Signature Algorithm
+49269,0xC075,TLS_ECDH_ECDSA_WITH_CAMELLIA_256_CBC_SHA384,TLS,Camellia Encryption Algorithm,256,CBC,SHA384,Elliptic Curve Diffie–Hellman,Elliptic Curve Digital Signature Algorithm
+49270,0xC076,TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256,TLS,Camellia Encryption Algorithm,128,CBC,SHA256,Elliptic Curve Diffie–HellmanE,Rivest–Shamir–Adleman
+49271,0xC077,TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384,TLS,Camellia Encryption Algorithm,256,CBC,SHA384,Elliptic Curve Diffie–HellmanE,Rivest–Shamir–Adleman
+49272,0xC078,TLS_ECDH_RSA_WITH_CAMELLIA_128_CBC_SHA256,TLS,Camellia Encryption Algorithm,128,CBC,SHA256,Elliptic Curve Diffie–Hellman,Rivest–Shamir–Adleman
+49273,0xC079,TLS_ECDH_RSA_WITH_CAMELLIA_256_CBC_SHA384,TLS,Camellia Encryption Algorithm,256,CBC,SHA384,Elliptic Curve Diffie–Hellman,Rivest–Shamir–Adleman
+49274,0xC07A,TLS_RSA_WITH_CAMELLIA_128_GCM_SHA256,TLS,Camellia Encryption Algorithm,128,GCM,SHA256,Rivest–Shamir–Adleman,null
+49275,0xC07B,TLS_RSA_WITH_CAMELLIA_256_GCM_SHA384,TLS,Camellia Encryption Algorithm,256,GCM,SHA384,Rivest–Shamir–Adleman,null
+49276,0xC07C,TLS_DHE_RSA_WITH_CAMELLIA_128_GCM_SHA256,TLS,Camellia Encryption Algorithm,128,GCM,SHA256,Diffie–HellmanE,Rivest–Shamir–Adleman
+49277,0xC07D,TLS_DHE_RSA_WITH_CAMELLIA_256_GCM_SHA384,TLS,Camellia Encryption Algorithm,256,GCM,SHA384,Diffie–HellmanE,Rivest–Shamir–Adleman
+49278,0xC07E,TLS_DH_RSA_WITH_CAMELLIA_128_GCM_SHA256,TLS,Camellia Encryption Algorithm,128,GCM,SHA256,Diffie–Hellman,Rivest–Shamir–Adleman
+49279,0xC07F,TLS_DH_RSA_WITH_CAMELLIA_256_GCM_SHA384,TLS,Camellia Encryption Algorithm,256,GCM,SHA384,Diffie–Hellman,Rivest–Shamir–Adleman
+49280,0xC080,TLS_DHE_DSS_WITH_CAMELLIA_128_GCM_SHA256,TLS,Camellia Encryption Algorithm,128,GCM,SHA256,Diffie–HellmanE,Digital Signature Standard
+49281,0xC081,TLS_DHE_DSS_WITH_CAMELLIA_256_GCM_SHA384,TLS,Camellia Encryption Algorithm,256,GCM,SHA384,Diffie–HellmanE,Digital Signature Standard
+49282,0xC082,TLS_DH_DSS_WITH_CAMELLIA_128_GCM_SHA256,TLS,Camellia Encryption Algorithm,128,GCM,SHA256,Diffie–Hellman,Digital Signature Standard
+49283,0xC083,TLS_DH_DSS_WITH_CAMELLIA_256_GCM_SHA384,TLS,Camellia Encryption Algorithm,256,GCM,SHA384,Diffie–Hellman,Digital Signature Standard
+49284,0xC084,TLS_DH_anon_WITH_CAMELLIA_128_GCM_SHA256,TLS,Camellia Encryption Algorithm,128,GCM,SHA256,Diffie–Hellman,Anonymous
+49285,0xC085,TLS_DH_anon_WITH_CAMELLIA_256_GCM_SHA384,TLS,Camellia Encryption Algorithm,256,GCM,SHA384,Diffie–Hellman,Anonymous
+49286,0xC086,TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_GCM_SHA256,TLS,Camellia Encryption Algorithm,128,GCM,SHA256,Elliptic Curve Diffie–HellmanE,Elliptic Curve Digital Signature Algorithm
+49287,0xC087,TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_GCM_SHA384,TLS,Camellia Encryption Algorithm,256,GCM,SHA384,Elliptic Curve Diffie–HellmanE,Elliptic Curve Digital Signature Algorithm
+49288,0xC088,TLS_ECDH_ECDSA_WITH_CAMELLIA_128_GCM_SHA256,TLS,Camellia Encryption Algorithm,128,GCM,SHA256,Elliptic Curve Diffie–Hellman,Elliptic Curve Digital Signature Algorithm
+49289,0xC089,TLS_ECDH_ECDSA_WITH_CAMELLIA_256_GCM_SHA384,TLS,Camellia Encryption Algorithm,256,GCM,SHA384,Elliptic Curve Diffie–Hellman,Elliptic Curve Digital Signature Algorithm
+49290,0xC08A,TLS_ECDHE_RSA_WITH_CAMELLIA_128_GCM_SHA256,TLS,Camellia Encryption Algorithm,128,GCM,SHA256,Elliptic Curve Diffie–HellmanE,Rivest–Shamir–Adleman
+49291,0xC08B,TLS_ECDHE_RSA_WITH_CAMELLIA_256_GCM_SHA384,TLS,Camellia Encryption Algorithm,256,GCM,SHA384,Elliptic Curve Diffie–HellmanE,Rivest–Shamir–Adleman
+49292,0xC08C,TLS_ECDH_RSA_WITH_CAMELLIA_128_GCM_SHA256,TLS,Camellia Encryption Algorithm,128,GCM,SHA256,Elliptic Curve Diffie–Hellman,Rivest–Shamir–Adleman
+49293,0xC08D,TLS_ECDH_RSA_WITH_CAMELLIA_256_GCM_SHA384,TLS,Camellia Encryption Algorithm,256,GCM,SHA384,Elliptic Curve Diffie–Hellman,Rivest–Shamir–Adleman
+49294,0xC08E,TLS_PSK_WITH_CAMELLIA_128_GCM_SHA256,TLS,Camellia Encryption Algorithm,128,GCM,SHA256,Pre-Shared Key,null
+49295,0xC08F,TLS_PSK_WITH_CAMELLIA_256_GCM_SHA384,TLS,Camellia Encryption Algorithm,256,GCM,SHA384,Pre-Shared Key,null
+49296,0xC090,TLS_DHE_PSK_WITH_CAMELLIA_128_GCM_SHA256,TLS,Camellia Encryption Algorithm,128,GCM,SHA256,Diffie–HellmanE,Pre-Shared Key
+49297,0xC091,TLS_DHE_PSK_WITH_CAMELLIA_256_GCM_SHA384,TLS,Camellia Encryption Algorithm,256,GCM,SHA384,Diffie–HellmanE,Pre-Shared Key
+49298,0xC092,TLS_RSA_PSK_WITH_CAMELLIA_128_GCM_SHA256,TLS,Camellia Encryption Algorithm,128,GCM,SHA256,Rivest–Shamir–Adleman,Pre-Shared Key
+49299,0xC093,TLS_RSA_PSK_WITH_CAMELLIA_256_GCM_SHA384,TLS,Camellia Encryption Algorithm,256,GCM,SHA384,Rivest–Shamir–Adleman,Pre-Shared Key
+49300,0xC094,TLS_PSK_WITH_CAMELLIA_128_CBC_SHA256,TLS,Camellia Encryption Algorithm,128,CBC,SHA256,Pre-Shared Key,null
+49301,0xC095,TLS_PSK_WITH_CAMELLIA_256_CBC_SHA384,TLS,Camellia Encryption Algorithm,256,CBC,SHA384,Pre-Shared Key,null
+49302,0xC096,TLS_DHE_PSK_WITH_CAMELLIA_128_CBC_SHA256,TLS,Camellia Encryption Algorithm,128,CBC,SHA256,Diffie–HellmanE,Pre-Shared Key
+49303,0xC097,TLS_DHE_PSK_WITH_CAMELLIA_256_CBC_SHA384,TLS,Camellia Encryption Algorithm,256,CBC,SHA384,Diffie–HellmanE,Pre-Shared Key
+49304,0xC098,TLS_RSA_PSK_WITH_CAMELLIA_128_CBC_SHA256,TLS,Camellia Encryption Algorithm,128,CBC,SHA256,Rivest–Shamir–Adleman,Pre-Shared Key
+49305,0xC099,TLS_RSA_PSK_WITH_CAMELLIA_256_CBC_SHA384,TLS,Camellia Encryption Algorithm,256,CBC,SHA384,Rivest–Shamir–Adleman,Pre-Shared Key
+49306,0xC09A,TLS_ECDHE_PSK_WITH_CAMELLIA_128_CBC_SHA256,TLS,Camellia Encryption Algorithm,128,CBC,SHA256,Elliptic Curve Diffie–HellmanE,Pre-Shared Key
+49307,0xC09B,TLS_ECDHE_PSK_WITH_CAMELLIA_256_CBC_SHA384,TLS,Camellia Encryption Algorithm,256,CBC,SHA384,Elliptic Curve Diffie–HellmanE,Pre-Shared Key
+49308,0xC09C,TLS_RSA_WITH_AES_128_CCM,TLS,Advanced Encryption Standard,128,CCM,null,Rivest–Shamir–Adleman,null
+49309,0xC09D,TLS_RSA_WITH_AES_256_CCM,TLS,Advanced Encryption Standard,256,CCM,null,Rivest–Shamir–Adleman,null
+49310,0xC09E,TLS_DHE_RSA_WITH_AES_128_CCM,TLS,Advanced Encryption Standard,128,CCM,null,Diffie–HellmanE,Rivest–Shamir–Adleman
+49311,0xC09F,TLS_DHE_RSA_WITH_AES_256_CCM,TLS,Advanced Encryption Standard,256,CCM,null,Diffie–HellmanE,Rivest–Shamir–Adleman
+49312,0xC0A0,TLS_RSA_WITH_AES_128_CCM_8,TLS,Advanced Encryption Standard,128,CCM,8,Rivest–Shamir–Adleman,null
+49313,0xC0A1,TLS_RSA_WITH_AES_256_CCM_8,TLS,Advanced Encryption Standard,256,CCM,8,Rivest–Shamir–Adleman,null
+49314,0xC0A2,TLS_DHE_RSA_WITH_AES_128_CCM_8,TLS,Advanced Encryption Standard,128,CCM,8,Diffie–HellmanE,Rivest–Shamir–Adleman
+49315,0xC0A3,TLS_DHE_RSA_WITH_AES_256_CCM_8,TLS,Advanced Encryption Standard,256,CCM,8,Diffie–HellmanE,Rivest–Shamir–Adleman
+49316,0xC0A4,TLS_PSK_WITH_AES_128_CCM,TLS,Advanced Encryption Standard,128,CCM,null,Pre-Shared Key,null
+49317,0xC0A5,TLS_PSK_WITH_AES_256_CCM,TLS,Advanced Encryption Standard,256,CCM,null,Pre-Shared Key,null
+49318,0xC0A6,TLS_DHE_PSK_WITH_AES_128_CCM,TLS,Advanced Encryption Standard,128,CCM,null,Diffie–HellmanE,Pre-Shared Key
+49319,0xC0A7,TLS_DHE_PSK_WITH_AES_256_CCM,TLS,Advanced Encryption Standard,256,CCM,null,Diffie–HellmanE,Pre-Shared Key
+49320,0xC0A8,TLS_PSK_WITH_AES_128_CCM_8,TLS,Advanced Encryption Standard,128,CCM,8,Pre-Shared Key,null
+49321,0xC0A9,TLS_PSK_WITH_AES_256_CCM_8,TLS,Advanced Encryption Standard,256,CCM,8,Pre-Shared Key,null
+49322,0xC0AA,TLS_PSK_DHE_WITH_AES_128_CCM_8,TLS,Advanced Encryption Standard,128,CCM,8,Pre-Shared Key,Diffie–HellmanE
+49323,0xC0AB,TLS_PSK_DHE_WITH_AES_256_CCM_8,TLS,Advanced Encryption Standard,256,CCM,8,Pre-Shared Key,Diffie–HellmanE
+49324,0xC0AC,TLS_ECDHE_ECDSA_WITH_AES_128_CCM,TLS,Advanced Encryption Standard,128,CCM,null,Elliptic Curve Diffie–HellmanE,Elliptic Curve Digital Signature Algorithm
+49325,0xC0AD,TLS_ECDHE_ECDSA_WITH_AES_256_CCM,TLS,Advanced Encryption Standard,256,CCM,null,Elliptic Curve Diffie–HellmanE,Elliptic Curve Digital Signature Algorithm
+49326,0xC0AE,TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8,TLS,Advanced Encryption Standard,128,CCM,8,Elliptic Curve Diffie–HellmanE,Elliptic Curve Digital Signature Algorithm
+49327,0xC0AF,TLS_ECDHE_ECDSA_WITH_AES_256_CCM_8,TLS,Advanced Encryption Standard,256,CCM,8,Elliptic Curve Diffie–HellmanE,Elliptic Curve Digital Signature Algorithm
+49328,0xC0B0,TLS_ECCPWD_WITH_AES_128_GCM_SHA256,TLS,Advanced Encryption Standard,128,GCM,SHA256,Elliptic Curve Password Authenticated Key Exchange,null
+49329,0xC0B1,TLS_ECCPWD_WITH_AES_256_GCM_SHA384,TLS,Advanced Encryption Standard,256,GCM,SHA384,Elliptic Curve Password Authenticated Key Exchange,null
+49330,0xC0B2,TLS_ECCPWD_WITH_AES_128_CCM_SHA256,TLS,Advanced Encryption Standard,128,CCM,SHA256,Elliptic Curve Password Authenticated Key Exchange,null
+49331,0xC0B3,TLS_ECCPWD_WITH_AES_256_CCM_SHA384,TLS,Advanced Encryption Standard,256,CCM,SHA384,Elliptic Curve Password Authenticated Key Exchange,null
+49332,0xC0B4,TLS_SHA256_SHA256,TLS,null,null,null,null,null,null
+49333,0xC0B5,TLS_SHA384_SHA384,TLS,null,null,null,null,null,null
+49408,0xC100,TLS_GOSTR341112_256_WITH_KUZNYECHIK_CTR_OMAC,TLS,Kuznyechik Block Cipher,null,OMAC,null,GOSTR341112,256
+49409,0xC101,TLS_GOSTR341112_256_WITH_MAGMA_CTR_OMAC,TLS,Magma Block Cipher,null,OMAC,null,GOSTR341112,256
+49410,0xC102,TLS_GOSTR341112_256_WITH_28147_CNT_IMIT,TLS,28147,null,IMIT,null,GOSTR341112,256
+49411,0xC103,TLS_GOSTR341112_256_WITH_KUZNYECHIK_MGM_L,TLS,Kuznyechik Block Cipher,null,L,null,GOSTR341112,256
+49412,0xC104,TLS_GOSTR341112_256_WITH_MAGMA_MGM_L,TLS,Magma Block Cipher,null,L,null,GOSTR341112,256
+49413,0xC105,TLS_GOSTR341112_256_WITH_KUZNYECHIK_MGM_S,TLS,Kuznyechik Block Cipher,null,S,null,GOSTR341112,256
+49414,0xC106,TLS_GOSTR341112_256_WITH_MAGMA_MGM_S,TLS,Magma Block Cipher,null,S,null,GOSTR341112,256
+51914,0xCACA,Reserved,TLS,null,null,null,null,null,null
+52392,0xCCA8,TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256,TLS,ChaCha20 Stream Cipher,null,SHA256,null,Elliptic Curve Diffie–HellmanE,Rivest–Shamir–Adleman
+52393,0xCCA9,TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256,TLS,ChaCha20 Stream Cipher,null,SHA256,null,Elliptic Curve Diffie–HellmanE,Elliptic Curve Digital Signature Algorithm
+52394,0xCCAA,TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256,TLS,ChaCha20 Stream Cipher,null,SHA256,null,Diffie–HellmanE,Rivest–Shamir–Adleman
+52395,0xCCAB,TLS_PSK_WITH_CHACHA20_POLY1305_SHA256,TLS,ChaCha20 Stream Cipher,null,SHA256,null,Pre-Shared Key,null
+52396,0xCCAC,TLS_ECDHE_PSK_WITH_CHACHA20_POLY1305_SHA256,TLS,ChaCha20 Stream Cipher,null,SHA256,null,Elliptic Curve Diffie–HellmanE,Pre-Shared Key
+52397,0xCCAD,TLS_DHE_PSK_WITH_CHACHA20_POLY1305_SHA256,TLS,ChaCha20 Stream Cipher,null,SHA256,null,Diffie–HellmanE,Pre-Shared Key
+52398,0xCCAE,TLS_RSA_PSK_WITH_CHACHA20_POLY1305_SHA256,TLS,ChaCha20 Stream Cipher,null,SHA256,null,Rivest–Shamir–Adleman,Pre-Shared Key
+53249,0xD001,TLS_ECDHE_PSK_WITH_AES_128_GCM_SHA256,TLS,Advanced Encryption Standard,128,GCM,SHA256,Elliptic Curve Diffie–HellmanE,Pre-Shared Key
+53250,0xD002,TLS_ECDHE_PSK_WITH_AES_256_GCM_SHA384,TLS,Advanced Encryption Standard,256,GCM,SHA384,Elliptic Curve Diffie–HellmanE,Pre-Shared Key
+53251,0xD003,TLS_ECDHE_PSK_WITH_AES_128_CCM_8_SHA256,TLS,Advanced Encryption Standard,128,CCM,8,Elliptic Curve Diffie–HellmanE,Pre-Shared Key
+53253,0xD005,TLS_ECDHE_PSK_WITH_AES_128_CCM_SHA256,TLS,Advanced Encryption Standard,128,CCM,SHA256,Elliptic Curve Diffie–HellmanE,Pre-Shared Key
